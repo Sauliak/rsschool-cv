@@ -33,14 +33,14 @@ Now my goal is to become a great developer, so I spend all my free time learning
 **KATA from CODEWARS: Is n divisible by x and y?**  
 *Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are strictly positive numbers.*  
 
-`function isDivisible(n, x, y) {  
-    const remainderOfX = n % x;  
-    const remainderOfY = n % y;  
-    if (remainderOfX === 0 && remainderOfY === 0) {  
-        return true;  
-        }  
-    return false;  
-}`
+`function isDivisible(n, x, y) {`  
+`   const remainderOfX = n % x;`  
+`   const remainderOfY = n % y;`  
+`   if (remainderOfX === 0 && remainderOfY === 0) {`  
+`       return true;`  
+`       }`  
+`   return false;`  
+`}`
 
 ---
 
@@ -50,8 +50,12 @@ Now my goal is to become a great developer, so I spend all my free time learning
 * Krasnoarmeysk National Technical University, *Mining Electromechanical Engineer*  
 
 **Courses:**  
-* RS School Course «JavaScript/Front-end. Stage 0» *(successfully completed)*  
-* RS School Course «JavaScript/Front-end. Stage 1» *(in progress)*  
+* [RS School Course «JavaScript/Front-end. Stage 0»](https://github.com/rolling-scopes-school/tasks/tree/master/stage0) *(successfully completed)*  
+* [RS School Course «JavaScript/Front-end. Stage 1»](https://github.com/rolling-scopes-school/tasks/tree/master/stage1) *(in progress)*  
 
 ---
 
+### Languages
+* English - A1 (Elementary)  
+* Russian - Native
+* Ukrainian - Native
