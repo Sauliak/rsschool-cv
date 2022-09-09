@@ -1,5 +1,5 @@
 # Valentin Sauliak  
-### Junior Frontend Developer  
+### Junior Front-end Developer  
 
 ---
 
@@ -34,19 +34,24 @@ Now my goal is to become a great developer, so I spend all my free time learning
 *Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are strictly positive numbers.*  
 
 `function isDivisible(n, x, y) {  
-  const remainderOfX = n % x;  
-  const remainderOfY = n % y;  
-  if (remainderOfX === 0 && remainderOfY === 0) {  
-    return true;  
-  }  
-  return false;  
+    const remainderOfX = n % x;  
+    const remainderOfY = n % y;  
+    if (remainderOfX === 0 && remainderOfY === 0) {  
+        return true;  
+        }  
+    return false;  
 }`
 
 ---
 
-### Courses
-* RS Schools Course «JavaScript/Front-end. Stage 0» (successfully completed)  
-* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)  
+### Education
+**Universities:**  
+* Kharkiv National Automobile and Highway University, *Electrical Engineer*  
+* Krasnoarmeysk National Technical University, *Mining Electromechanical Engineer*  
+
+**Courses:**  
+* RS School Course «JavaScript/Front-end. Stage 0» *(successfully completed)*  
+* RS School Course «JavaScript/Front-end. Stage 1» *(in progress)*  
 
 ---
 
