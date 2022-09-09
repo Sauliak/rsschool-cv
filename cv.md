@@ -21,3 +21,11 @@ Now my goal is to become a great developer, so I spend all my free time learning
 
 ---
 
+### Skills
+* HTML  
+* CSS  
+* JavaScript  
+* Git/GitHub  
+
+---
+
