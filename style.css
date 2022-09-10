@@ -12,7 +12,8 @@ html {
     font-family: 'Bebas Neue', cursive;
 }
 
-.article {
+.article,
+.main {
     position: relative;
     display: flex;
 }
@@ -46,7 +47,7 @@ html {
     color: #484848;
     position: relative;
     z-index: 1;
-    transition: color 0.15s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .text-link:after {
@@ -58,7 +59,7 @@ html {
     height: 100%;
     background: #484848;
     z-index: -1;
-    transition: width 0.15s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .text-link:hover {
@@ -118,4 +119,57 @@ html {
     font-family: 'Arvo';
     font-size: 14px;
     line-height: 24px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #2E2E2E;
+}
+
+.title-aside {
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #FFC800;
+    border-bottom: 2px solid #FFC800;
+}
+
+.contacts-information-block,
+.contacts-information-text {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.contacts-information {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link {
+    text-decoration: none;
+    font-family: 'Arvo';
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #8D8D8D;
+    transition: color 0.2s ease-in-out;
+}
+
+.contacts-link:hover {
+    color: #FFC800;
+}
+
+.icon {
+    width: 35px;
 }
