@@ -150,7 +150,7 @@ html {
     font-family: 'Bebas Neue';
     font-size: 15px;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .contacts-information {
@@ -175,7 +175,8 @@ html {
     width: 35px;
 }
 
-.skills-information {
+.skills-information,
+.languages-information {
     display: flex;
     align-items: center;
     justify-content:flex-end;
@@ -230,7 +231,8 @@ html {
         width: 30px;
     }
     
-    .skills-information {
+    .skills-information,
+    .languages-information {
         margin: 8px 18px;
     }
 }
@@ -283,7 +285,8 @@ html {
         width: 25px;
     }
     
-    .skills-information {
+    .skills-information,
+    .languages-information {
         margin: 6px 16px;
     }
 }
@@ -336,7 +339,8 @@ html {
         width: 20px;
     }
     
-    .skills-information {
+    .skills-information,
+    .languages-information {
         margin: 4px 14px;
     }
 }
@@ -389,7 +393,8 @@ html {
         width: 15px;
     }
     
-    .skills-information {
+    .skills-information,
+    .languages-information {
         margin: 4px 14px;
     }
 }
@@ -442,7 +447,8 @@ html {
         width: 10px;
     }
     
-    .skills-information {
-        margin: 4px 12px;
+    .skills-information,
+    .languages-information {
+        margin: 4px 10px;
     }
 }
