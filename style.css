@@ -1,0 +1,467 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url(./assets/jpg/dark-grey.jpg);
+}
+
+.body {
+    max-width: 1200px;
+    min-width: 550px;
+    margin: 5vh auto;
+    background: #FFFFFF;
+    box-shadow: 30px 30px 20px rgb(0 0 0 / 25%);
+    font-family: 'Arvo', serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.article,
+.main {
+    position: relative;
+    display: flex;
+}
+
+.photo-block {
+    width: 30%;
+    margin: 0;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 70%;
+}
+
+.nav {
+    margin: 20px 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFC800;
+}
+
+.text-link {
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 22px;
+    color: #484848;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.text-link:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #484848;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+.text-link:hover {
+    color: #FFFFFF;
+}
+
+.text-link:hover:after {
+    width: 110%;
+}
+
+.name {
+    margin: 50px 20px 0 10%;
+    font-family: 'Arvo';
+    font-size: 60px;
+    color: #2E2E2E;
+}
+
+.position {
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 10px 20px;
+    font-family: 'Bebas Neue';
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    background-color: #2E2E2E;
+    color: #FFC800;
+}
+
+.about-myself {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 200, 0, 0.5);
+    max-width: 1200px;
+    min-width: 550px;
+    width: 100%;
+    height: 42%;
+    display: flex;
+    align-items: center;
+}
+
+.title-about-myself {
+    width: 28%;
+    text-align: end;
+    margin-right: 2%;
+    font-family: 'Bebas Neue';
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.text-about-myself {
+    width: 61%;
+    margin-left: 7%;
+    margin-right: 2%;
+    font-family: 'Arvo';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #2E2E2E;
+}
+
+.title-aside {
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #FFC800;
+    border-bottom: 2px solid #FFC800;
+}
+
+.aside-blocks,
+.contacts-information-text {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    color: #FFFFFF;
+    font-family: 'Bebas Neue';
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.contacts-information {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-link {
+    text-decoration: none;
+    font-family: 'Arvo';
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #8D8D8D;
+    transition: color 0.2s ease-in-out;
+}
+
+.contacts-link:hover,
+.yellow {
+    color: #FFC800;
+}
+
+.icon {
+    width: 35px;
+}
+
+.skills-information,
+.languages-information {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin: 10px 20px 10px 0;
+}
+
+.information {
+    width: 70%;
+}
+
+.title-section {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    border-bottom: 2px solid #2E2E2E;
+}
+
+.title {
+    margin: 30px 0 0 10%;
+    color: #484848;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.universitie,
+.courses {
+    margin: 10px 10px 10px 10%;
+    color: #FFC800;
+    font-family: 'Arvo';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.university-name,
+.link-name {
+    color: #2E2E2E;
+    font-family: 'Arvo';
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: color 0.2s ease-in-out;
+}
+
+.link-name:hover {
+    color: #8D8D8D;
+}
+
+.text-code {
+    margin: 0 3% 0 10%;
+    font-family: 'Arvo';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.indent-one {
+    margin-left: 0;
+}
+
+.indent-two {
+    margin-left: 5%;
+}
+
+.indent-three {
+    margin-left: 10%;
+}
+
+.code-block {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #8D8D8D;
+    font-family: 'Arvo';
+    font-size: 15px;
+    line-height: 24px;
+    padding: 10px 5%;
+    letter-spacing: 2px;
+}
+
+.greey {
+    color: #484848;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.black {
+    color: #2E2E2E;
+}
+
+.projects {
+    width: 90%;
+    margin: 30px 0 30px 10%;
+    display: flex;
+}
+
+.project {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFC800;
+    filter: grayscale(1);
+    transition: all 0.2s;
+}
+
+.image:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.image:active {
+    transform: scale(1);
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #FFC800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element-footer {
+    margin: 20px;
+    width: 110px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #2E2E2E;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 960px) {
+    .text-about-myself {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .name {
+        font-size: 55px;
+    }
+
+    .aside-blocks,
+    .contacts-information-text {
+    margin: 8px 15px 8px 8px;
+    font-size: 14px;
+    text-align: end;
+    }
+
+    .email-text {
+        font-size: 12px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .body {
+        margin: 0;
+    }
+
+    .nav {
+        margin: 15px 15px 5px;
+    }
+    
+    .text-link {
+        font-size: 18px;
+    }
+
+    .title-about-myself {
+        font-size: 25px;
+    }
+
+    .text-about-myself {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .name {
+        margin: 30px 15px 0 10%;
+        font-size: 45px;
+    }
+    
+    .position {
+        padding: 7px 15px;
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+
+    .title-aside {
+        margin-right: 10px;
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
+
+    .aside-blocks,
+    .contacts-information-text {
+    margin: 7px 10px 7px 7px;
+    font-size: 12px;
+    }
+
+    .email-text {
+        font-size: 10px;
+    }
+
+    .icon {
+        width: 25px;
+    }
+
+    .skills-information, 
+    .languages-information {
+        margin: 7px 10px 7px 0;
+    }
+
+    .title-section {
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
+
+    .title {
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .universitie,
+    .courses {
+        margin: 7px 7px 7px 10%;
+        font-size: 12px;
+    }
+
+    .university-name,
+    .link-name,
+    .text-code {
+        font-size: 12px;
+    }
+    
+    .footer {
+        height: 50px;
+    }
+
+    .element-footer {
+        margin: 15px;
+        width: 85px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .text-link {
+        font-size: 15px;
+    }
+
+    .name {
+        margin: 20px 10px 0 10%;
+        font-size: 40px;
+    }
+
+    .text-about-myself {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .aside-blocks,
+    .contacts-information-text {
+        font-size: 10px;
+    }
+
+    .email-text {
+        font-size: 8px;
+    }
+}
