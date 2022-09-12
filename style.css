@@ -167,7 +167,8 @@ html {
     transition: color 0.2s ease-in-out;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.yellow {
     color: #FFC800;
 }
 
@@ -183,7 +184,7 @@ html {
     margin: 10px 20px;
 }
 
-.education {
+.information {
     width: 70%;
 }
 
@@ -198,7 +199,7 @@ html {
     border-bottom: 2px solid #2E2E2E;
 }
 
-.title-education {
+.title {
     margin: 30px 0 0 10%;
     color: #484848;
     font-family: 'Bebas Neue';
@@ -218,13 +219,58 @@ html {
 }
 
 .university-name,
-.courses-name {
+.link-name {
     color: #2E2E2E;
+    font-family: 'Arvo';
+    font-size: 14px;
+    letter-spacing: 1px;
     transition: color 0.2s ease-in-out;
 }
 
-.courses-name:hover {
+.link-name:hover {
     color: #8D8D8D;
+}
+
+.text-code {
+    margin: 0 3% 0 10%;
+    font-family: 'Arvo';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.indent-one {
+    margin-left: 0;
+}
+
+.indent-two {
+    margin-left: 5%;
+}
+
+.indent-three {
+    margin-left: 10%;
+}
+
+.code-block {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #8D8D8D;
+    font-family: 'Arvo';
+    font-size: 15px;
+    line-height: 24px;
+    padding: 10px 5%;
+    letter-spacing: 2px;
+}
+
+.greey {
+    color: #484848;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.black {
+    color: #2E2E2E;
 }
 
 @media (max-width: 960px) {
@@ -282,7 +328,8 @@ html {
     }
 
     .universitie,
-    .courses {
+    .courses,
+    .link-name {
         margin: 8px 8px 8px 10%;
         font-size: 13px;
     }
@@ -294,7 +341,7 @@ html {
     }
 
     .text-link,
-    .title-education {
+    .title {
         font-size: 18px;
     }
 
@@ -350,7 +397,7 @@ html {
     }
 
     .text-link,
-    .title-education {
+    .title {
         font-size: 16px;
     }
 
@@ -400,7 +447,8 @@ html {
     }
 
     .universitie,
-    .courses {
+    .courses,
+    .link-name {
         margin: 6px 6px 6px 10%;
         font-size: 10px;
     }
@@ -412,7 +460,7 @@ html {
     }
 
     .text-link,
-    .title-education {
+    .title {
         font-size: 12px;
     }
 
@@ -468,7 +516,7 @@ html {
     }
 
     .text-link,
-    .title-education {
+    .title {
         font-size: 10px;
     }
 
@@ -518,7 +566,8 @@ html {
     }
 
     .universitie,
-    .courses {
+    .courses,
+    .link-name {
         margin: 4px 4px 4px 10%;
         font-size: 8px;
     }
