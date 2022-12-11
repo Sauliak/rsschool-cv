@@ -220,6 +220,15 @@ html {
 
 .certificate {
     margin: 0;
+    color: #FFC800;
+    font-family: 'Arvo';
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.certificate:hover {
+    color: #F4D76F;
 }
 
 .university-name,
