@@ -218,6 +218,10 @@ html {
     letter-spacing: 1px;
 }
 
+.certificate {
+    margin: 0;
+}
+
 .university-name,
 .link-name {
     color: #2E2E2E;
